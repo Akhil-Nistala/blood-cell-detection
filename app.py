@@ -9,7 +9,7 @@ from collections import Counter
 # ===========================
 # Load Model
 # ===========================
-model = YOLO("/content/runs/detect/train/weights/best.pt")
+model = YOLO("best.pt")
 
 # ===========================
 # Helper Function
